@@ -81,3 +81,23 @@ Ensure secure data transmission using standard encryption protocols without over
 ## 4.4 Simplify User Interface and Experience
 Focus on displaying only the most critical information and functionalities in the user interface to reduce complexity.
 
+# 5. Would you change your system design after this development cycle?
+
+## 5.1 Wireless Communication Protocol
+Initial Choice: LTE-M/NB-IoT  
+
+Pros:  
+
+Wide Coverage: LTE-M and NB-IoT offer extensive coverage, making them suitable for outdoor deployments where mobile restrooms are frequently moved.  
+Low Power Consumption: Both protocols are designed for low power usage, extending the battery life of IoT devices.  
+Scalability: They support a large number of devices, facilitating the management of multiple restroom units.  
+
+Cons:  
+
+Latency: These protocols may introduce higher latency compared to alternatives like LoRaWAN, which could impact real-time data transmission.  
+Cost: LTE-M/NB-IoT can be more expensive in terms of data plans, especially for deployments with a large number of devices sending frequent updates.  
+Dependency on Cellular Networks: Reliance on existing cellular infrastructure may limit deployment in remote areas with poor network coverage.  
+
+Recommended Changes:  
+
+Wi-Fi 6 or 6E. Pros: Higher data rates and lower latency, beneficial for real-time monitoring and high-density deployments. Cons: Higher power consumption and reliance on local Wi-Fi infrastructure.
