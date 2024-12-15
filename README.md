@@ -2,83 +2,80 @@
 
 # 1.Changes throughout the project
 
-## Target Market & Demographics
+## a. Target Market & Demographics
 
-Initial Phase:  
-Focus: Primarily large event organizers for reducing maintenance costs and ensuring restroom cleanliness.
-Geographical Focus: North America and Europe due to high demand and regulatory environments.
-Market Size Estimation: General global mobile restroom market projected to reach over $15 billion by 2027.  
+- __Initial Phase:__
+  - __Focus:__ Primarily large event organizers for reducing maintenance costs and ensuring restroom cleanliness.  
+  - __Geographical Focus:__ North America and Europe due to high demand and regulatory environments.  
+  - __Market Size Estimation:__ General global mobile restroom market projected to reach over $15 billion by 2027.  
 
-Changes Throughout the Project:  
-Detailed Breakdown: Provided a more granular market size analysis segmented by region and industry (e.g., events, construction, municipal).  
-Differentiation Strategies: Clearly articulated how the product stands out from competitors, particularly through advanced IoT integration and smart monitoring features.  
+- __Changes Throughout the Project:__ 
+  - __Detailed Breakdown:__ Provided a more granular market size analysis segmented by region and industry (e.g., events, construction, municipal).  
+  - __Differentiation Strategies:__ Clearly articulated how the product stands out from competitors, particularly through advanced IoT integration and smart monitoring features.  
 
-## Security, Hardware, & Software Requirements
+## b. Security, Hardware, & Software Requirements
 
-Initial Phase:  
-Security:  
-Basic requirements for data privacy, integrity, tampering prevention, and secure storage.  
-Hardware:  
-Utilization of Nordic Thingy:91 for GPS tracking, user volume monitoring via Hall effect sensors, and air quality detection via gas sensors.  
-Software:  
-Managed GPS tracking, user-triggered alerts, and data transmission to the cloud via LTE-M/NB-IoT.  
+- __Initial Phase:__  
+  - __Security:__ Basic requirements for data privacy, integrity, tampering prevention, and secure storage.  
+  - __Hardware:__ Utilization of Nordic Thingy:91 for GPS tracking, user volume monitoring via Hall effect sensors, and air quality detection via gas sensors.  
+  - __Software:__ Managed GPS tracking, user-triggered alerts, and data transmission to the cloud via LTE-M/NB-IoT.  
 
-Changes Throughout the Project:  
-Security: Implemented end-to-end encryption for data in transit and at rest.  
-Upgraded Hardware Specifications: use nRF 9160dk instead of Nordic Thingy:91 (for the Memfault cellular ).
-Advanced Software Features: use nRF cloud to show the location of the device.
+- __Changes Throughout the Project:__  
+  - __Security:__ Implemented end-to-end encryption for data in transit and at rest.  
+  - __Upgraded Hardware Specifications:__ use nRF 9160dk instead of Nordic Thingy:91 (for the Memfault cellular ).
+  - __Advanced Software Features:__ use nRF cloud to show the location of the device.
 
-## Product Function & Components
+## c. Product Function & Components
 
-Initial Phase:  
-Primary Functions:  
-GPS tracking of portable toilets.  
-User volume monitoring via Hall effect sensors.  
-Air quality detection via gas sensors.  
-Core Components:  
-Nordic Thingy:91, Hall effect sensors, gas sensors.  
+- __Initial Phase:__  
+  - __Primary Functions:__ 
+  1) GPS tracking of portable toilets.  
+  2) User volume monitoring via Hall effect sensors.  
+  3) Air quality detection via gas sensors.  
+  - __Core Components:__  Nordic Thingy:91, Hall effect sensors, gas sensors.  
 
-Changes Throughout the Project:  
-The product features have hardly changed.  
-Core Components: nRF 9160dk, bme680(as gas sensor), button(instead of Hall effect sensors)  
+- __Changes Throughout the Project:__  
+  - The product features have hardly changed.  
+  - Core Components: nRF 9160dk, bme680(as gas sensor), button(instead of Hall effect sensors)  
 
-## Power & Cost Budgeting
+## d. Power & Cost Budgeting
 
-Bulk Purchasing Discounts: Negotiated bulk purchasing agreements for components, reducing per-unit costs.  
-Component Substitutions: Identified alternative suppliers or component models offering similar functionality at lower costs without compromising quality.  
-Prototype to Production Scaling: Adjusted cost estimates to account for economies of scale as production moves from prototype to mass manufacturing.  
+- __Bulk Purchasing Discounts:__ Negotiated bulk purchasing agreements for components, reducing per-unit costs.  
+- __Component Substitutions:__ Identified alternative suppliers or component models offering similar functionality at lower costs without compromising quality.  
+- __Prototype to Production Scaling:__ Adjusted cost estimates to account for economies of scale as production moves from prototype to mass manufacturing.  
 
 # 2. What parts of the project were successful
 
 Detailed Software Requirements Specification  
 
-Why It's a Success:  
+__Why It's a Success:__  
 
-1.Real-Time Monitoring and Alerts: Implementing real-time GNSS tracking and alert systems ensures that maintenance staff can respond promptly to issues, enhancing operational efficiency.
+1. __Real-Time Monitoring and Alerts:__ Implementing real-time GNSS tracking and alert systems ensures that maintenance staff can respond promptly to issues, enhancing operational efficiency.
 Power Monitoring: Monitoring battery status and sending low-power alerts adds a layer of reliability, ensuring that the system remains functional when needed.
 
-2.System Administrators and Maintenance Staff: Clearly defining user roles ensures that the software meets the specific needs of different stakeholders, facilitating ease of use and effective management.  
+2. __System Administrators and Maintenance Staff:__ Clearly defining user roles ensures that the software meets the specific needs of different stakeholders, facilitating ease of use and effective management.  
 
-3.LTE-M/NB-IoT Connectivity: Utilizing reliable and low-power communication technologies ensures that your system can maintain continuous connectivity with minimal energy consumption.  
+3. __LTE-M/NB-IoT Connectivity:__ Utilizing reliable and low-power communication technologies ensures that your system can maintain continuous connectivity with minimal energy consumption.  
 
 # 3. What parts of your project didn’t go well
 
 Technical Integration and Hardware Challenges  
 
-Issues Faced:  
+__Issues Faced:__
 
-Sensor Reliability: Certain sensors (e.g., bme680) may have exhibited inconsistent performance in real-world conditions.  
-Hardware Durability: The hardware components, including the nRF 9160dk, may have faced durability issues when deployed in outdoor environments.  
+- __Sensor Reliability:__ Certain sensors (e.g., bme680) may have exhibited inconsistent performance in real-world conditions.  
+- __Hardware Durability:__ The hardware components, including the nRF 9160dk, may have faced durability issues when deployed in outdoor environments.  
 
-Reasons:  
-Environmental Factors: Exposure to extreme weather conditions, dust, and moisture could have affected sensor performance and hardware longevity.  
-Integration Complexities: Integrating multiple sensors and ensuring seamless communication between them and the central unit might have led to unforeseen technical challenges.  
+__Reasons:__
+
+- __Environmental Factors:__ Exposure to extreme weather conditions, dust, and moisture could have affected sensor performance and hardware longevity.  
+- __Integration Complexities:__ Integrating multiple sensors and ensuring seamless communication between them and the central unit might have led to unforeseen technical challenges.  
 
 # 4.If you had to do it again, how might you change your development approach given the finite time and money resources?
 
 ## 4.1 Streamline Market Research and Targeting
 
-Primary Users: Concentrate on segments with immediate and high demand, such as large event organizers and rental companies, which can provide early revenue streams.
+__Primary Users:__ Concentrate on segments with immediate and high demand, such as large event organizers and rental companies, which can provide early revenue streams.
 
 ## 4.2 Optimize Hardware and Technology Choices
 
@@ -96,51 +93,51 @@ Focus on displaying only the most critical information and functionalities in th
 
 ## 5.1 Wireless Communication Protocol
 
-Initial Choice: LTE-M/NB-IoT  
+__Initial Choice:__ LTE-M/NB-IoT  
 
-Pros:  
+- __Pros:__  
 
-Wide Coverage: LTE-M and NB-IoT offer extensive coverage, making them suitable for outdoor deployments where mobile restrooms are frequently moved.  
-Low Power Consumption: Both protocols are designed for low power usage, extending the battery life of IoT devices.  
-Scalability: They support a large number of devices, facilitating the management of multiple restroom units.  
+  - __Wide Coverage:__ LTE-M and NB-IoT offer extensive coverage, making them suitable for outdoor deployments where mobile restrooms are frequently moved.  
+  - __Low Power Consumption:__ Both protocols are designed for low power usage, extending the battery life of IoT devices.  
+  - __Scalability:__ They support a large number of devices, facilitating the management of multiple restroom units.  
 
-Cons:  
+- __Cons:__  
 
-Latency: These protocols may introduce higher latency compared to alternatives like LoRaWAN, which could impact real-time data transmission.  
-Cost: LTE-M/NB-IoT can be more expensive in terms of data plans, especially for deployments with a large number of devices sending frequent updates.  
-Dependency on Cellular Networks: Reliance on existing cellular infrastructure may limit deployment in remote areas with poor network coverage.  
+  - __Latency:__ These protocols may introduce higher latency compared to alternatives like LoRaWAN, which could impact real-time data transmission.  
+  - __Cost:__ LTE-M/NB-IoT can be more expensive in terms of data plans, especially for deployments with a large number of devices sending frequent updates.  
+  - __Dependency on Cellular Networks:__ Reliance on existing cellular infrastructure may limit deployment in remote areas with poor network coverage.  
 
-Recommended Changes:  
+- __Recommended Changes:__  
 
-Wi-Fi 6 or 6E. Pros: Higher data rates and lower latency, beneficial for real-time monitoring and high-density deployments. Cons: Higher power consumption and reliance on local Wi-Fi infrastructure.
+  - __Wi-Fi 6 or 6E. Pros:__ Higher data rates and lower latency, beneficial for real-time monitoring and high-density deployments. Cons: Higher power consumption and reliance on local Wi-Fi infrastructure.
 
 ## 5.2 Sensors and Actuators
 
-Recommended Changes: Infrared (IR) Sensors or Ultrasonic Sensors: For more reliable and accurate user occupancy detection, reducing dependency on door movements which may not always correlate with actual usage.
+- __Recommended Changes:__ Infrared (IR) Sensors or Ultrasonic Sensors: For more reliable and accurate user occupancy detection, reducing dependency on door movements which may not always correlate with actual usage.
 
 ## 5.3 Target Market Alignment
 
-Challenges Faced:  
-Slower Adoption Rates: Potential customers were hesitant to adopt the new technology without sufficient education and proven benefits.  
-Market Misalignment: Some segments may have different priorities or requirements that were not fully addressed by the initial product design.  
+- __Challenges Faced:__  
+  - __Slower Adoption Rates:__ Potential customers were hesitant to adopt the new technology without sufficient education and proven benefits.  
+  - __Market Misalignment:__ Some segments may have different priorities or requirements that were not fully addressed by the initial product design.  
 
-Recommended Changes:  
-Additional User Segments: Include smaller event organizers, temporary installations for disaster relief, outdoor recreational facilities, and private businesses (e.g., food trucks, pop-up shops).  
-Geographical Diversification: Consider expanding focus to regions with growing infrastructure projects or frequent events, such as Latin America and Southeast Asia.
+- __Recommended Changes:__  
+  - __Additional User Segments:__ Include smaller event organizers, temporary installations for disaster relief, outdoor recreational facilities, and private businesses (e.g., food trucks, pop-up shops).  
+  - __Geographical Diversification:__ Consider expanding focus to regions with growing infrastructure projects or frequent events, such as Latin America and Southeast Asia.
 
 ## 5.4 Images of our MVP Device  
 
-1. Get the Device's Location
+1. __Get the Device's Location__
 ![Get Location](./images/Location2.png)
 ![Get Location](./images/Location.png)
 
-2. Measuring the Air Quality
+2. __Measuring the Air Quality__
 ![Air Quality](./images/AirQuality.png)
 
-3. Simulate Door Openings
+3. __Simulate Door Openings__
 ![Door](./images/DoorOpenings.png)
 
-4. Upload to Memfault
+4. __Upload to Memfault__
 ![Door](./images/Memfault.png)
 
 ## 5.5 A video of the Core Product Function  
