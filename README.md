@@ -54,4 +54,15 @@ Power Monitoring: Monitoring battery status and sending low-power alerts adds a 
 2.System Administrators and Maintenance Staff: Clearly defining user roles ensures that the software meets the specific needs of different stakeholders, facilitating ease of use and effective management.  
 
 3.LTE-M/NB-IoT Connectivity: Utilizing reliable and low-power communication technologies ensures that your system can maintain continuous connectivity with minimal energy consumption.  
-  
+
+# 3. What parts of your project didn’t go well
+Technical Integration and Hardware Challenges  
+
+Issues Faced:  
+
+Sensor Reliability: Certain sensors (e.g., bme680) may have exhibited inconsistent performance in real-world conditions.  
+Hardware Durability: The hardware components, including the nRF 9160dk, may have faced durability issues when deployed in outdoor environments.  
+
+Reasons:  
+Environmental Factors: Exposure to extreme weather conditions, dust, and moisture could have affected sensor performance and hardware longevity.  
+Integration Complexities: Integrating multiple sensors and ensuring seamless communication between them and the central unit might have led to unforeseen technical challenges.  
