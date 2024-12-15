@@ -101,3 +101,15 @@ Dependency on Cellular Networks: Reliance on existing cellular infrastructure ma
 Recommended Changes:  
 
 Wi-Fi 6 or 6E. Pros: Higher data rates and lower latency, beneficial for real-time monitoring and high-density deployments. Cons: Higher power consumption and reliance on local Wi-Fi infrastructure.
+
+## 5.2 Sensors and Actuators
+Recommended Changes: Infrared (IR) Sensors or Ultrasonic Sensors: For more reliable and accurate user occupancy detection, reducing dependency on door movements which may not always correlate with actual usage.
+
+## 5.3 Target Market Alignment
+Challenges Faced:  
+Slower Adoption Rates: Potential customers were hesitant to adopt the new technology without sufficient education and proven benefits.  
+Market Misalignment: Some segments may have different priorities or requirements that were not fully addressed by the initial product design.  
+
+Recommended Changes:  
+Additional User Segments: Include smaller event organizers, temporary installations for disaster relief, outdoor recreational facilities, and private businesses (e.g., food trucks, pop-up shops).  
+Geographical Diversification: Consider expanding focus to regions with growing infrastructure projects or frequent events, such as Latin America and Southeast Asia.
