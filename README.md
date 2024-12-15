@@ -140,6 +140,9 @@ __Initial Choice:__ LTE-M/NB-IoT
 4. __Upload to Memfault__
 ![Door](./images/Memfault.png)
 
+5. __Device__
+![Door](./images/Device.jpg)
+
 ## 5.5 A video of the Core Product Function  
 
 [Core Product Function](https://drive.google.com/file/d/11ecXrXUUzbfoC3DiXIjPaw3_1XLnYxOT/view?usp=sharing)
