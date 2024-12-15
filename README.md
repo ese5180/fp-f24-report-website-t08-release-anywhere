@@ -66,3 +66,18 @@ Hardware Durability: The hardware components, including the nRF 9160dk, may have
 Reasons:  
 Environmental Factors: Exposure to extreme weather conditions, dust, and moisture could have affected sensor performance and hardware longevity.  
 Integration Complexities: Integrating multiple sensors and ensuring seamless communication between them and the central unit might have led to unforeseen technical challenges.  
+
+# 4.If you had to do it again, how might you change your development approach given the finite time and money resources?
+
+## 4.1 Streamline Market Research and Targeting
+Primary Users: Concentrate on segments with immediate and high demand, such as large event organizers and rental companies, which can provide early revenue streams.
+
+## 4.2 Optimize Hardware and Technology Choices
+Choose sensors with established performance records and community support to ensure reliability and ease of integration.
+
+## 4.3 Prioritize Security and Compliance Strategically
+Ensure secure data transmission using standard encryption protocols without overcomplicating the architecture.
+
+## 4.4 Simplify User Interface and Experience
+Focus on displaying only the most critical information and functionalities in the user interface to reduce complexity.
+
