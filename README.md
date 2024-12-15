@@ -1,7 +1,9 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/KSk4F6vj)
+
 # 1.Changes throughout the project
 
 ## Target Market & Demographics
+
 Initial Phase:  
 Focus: Primarily large event organizers for reducing maintenance costs and ensuring restroom cleanliness.
 Geographical Focus: North America and Europe due to high demand and regulatory environments.
@@ -12,6 +14,7 @@ Detailed Breakdown: Provided a more granular market size analysis segmented by r
 Differentiation Strategies: Clearly articulated how the product stands out from competitors, particularly through advanced IoT integration and smart monitoring features.  
 
 ## Security, Hardware, & Software Requirements
+
 Initial Phase:  
 Security:  
 Basic requirements for data privacy, integrity, tampering prevention, and secure storage.  
@@ -26,6 +29,7 @@ Upgraded Hardware Specifications: use nRF 9160dk instead of Nordic Thingy:91 (fo
 Advanced Software Features: use nRF cloud to show the location of the device.
 
 ## Product Function & Components
+
 Initial Phase:  
 Primary Functions:  
 GPS tracking of portable toilets.  
@@ -39,11 +43,13 @@ The product features have hardly changed.
 Core Components: nRF 9160dk, bme680(as gas sensor), button(instead of Hall effect sensors)  
 
 ## Power & Cost Budgeting
+
 Bulk Purchasing Discounts: Negotiated bulk purchasing agreements for components, reducing per-unit costs.  
 Component Substitutions: Identified alternative suppliers or component models offering similar functionality at lower costs without compromising quality.  
 Prototype to Production Scaling: Adjusted cost estimates to account for economies of scale as production moves from prototype to mass manufacturing.  
 
 # 2. What parts of the project were successful
+
 Detailed Software Requirements Specification  
 
 Why It's a Success:  
@@ -56,6 +62,7 @@ Power Monitoring: Monitoring battery status and sending low-power alerts adds a 
 3.LTE-M/NB-IoT Connectivity: Utilizing reliable and low-power communication technologies ensures that your system can maintain continuous connectivity with minimal energy consumption.  
 
 # 3. What parts of your project didn’t go well
+
 Technical Integration and Hardware Challenges  
 
 Issues Faced:  
@@ -70,20 +77,25 @@ Integration Complexities: Integrating multiple sensors and ensuring seamless com
 # 4.If you had to do it again, how might you change your development approach given the finite time and money resources?
 
 ## 4.1 Streamline Market Research and Targeting
+
 Primary Users: Concentrate on segments with immediate and high demand, such as large event organizers and rental companies, which can provide early revenue streams.
 
 ## 4.2 Optimize Hardware and Technology Choices
+
 Choose sensors with established performance records and community support to ensure reliability and ease of integration.
 
 ## 4.3 Prioritize Security and Compliance Strategically
+
 Ensure secure data transmission using standard encryption protocols without overcomplicating the architecture.
 
 ## 4.4 Simplify User Interface and Experience
+
 Focus on displaying only the most critical information and functionalities in the user interface to reduce complexity.
 
 # 5. Would you change your system design after this development cycle?
 
 ## 5.1 Wireless Communication Protocol
+
 Initial Choice: LTE-M/NB-IoT  
 
 Pros:  
@@ -103,9 +115,11 @@ Recommended Changes:
 Wi-Fi 6 or 6E. Pros: Higher data rates and lower latency, beneficial for real-time monitoring and high-density deployments. Cons: Higher power consumption and reliance on local Wi-Fi infrastructure.
 
 ## 5.2 Sensors and Actuators
+
 Recommended Changes: Infrared (IR) Sensors or Ultrasonic Sensors: For more reliable and accurate user occupancy detection, reducing dependency on door movements which may not always correlate with actual usage.
 
 ## 5.3 Target Market Alignment
+
 Challenges Faced:  
 Slower Adoption Rates: Potential customers were hesitant to adopt the new technology without sufficient education and proven benefits.  
 Market Misalignment: Some segments may have different priorities or requirements that were not fully addressed by the initial product design.  
@@ -113,3 +127,29 @@ Market Misalignment: Some segments may have different priorities or requirements
 Recommended Changes:  
 Additional User Segments: Include smaller event organizers, temporary installations for disaster relief, outdoor recreational facilities, and private businesses (e.g., food trucks, pop-up shops).  
 Geographical Diversification: Consider expanding focus to regions with growing infrastructure projects or frequent events, such as Latin America and Southeast Asia.
+
+## 5.4 Images of our MVP Device  
+
+1. Get the Device's Location
+![Get Location](./images/Location2.png)
+![Get Location](./images/Location.png)
+
+2. Measuring the Air Quality
+![Air Quality](./images/AirQuality.png)
+
+3. Simulate Door Openings
+![Door](./images/DoorOpenings.png)
+
+4. Upload to Memfault
+![Door](./images/Memfault.png)
+
+## 5.5 A video of the Core Product Function  
+
+[Core Product Function](https://drive.google.com/file/d/11ecXrXUUzbfoC3DiXIjPaw3_1XLnYxOT/view?usp=sharing)
+
+Note: The functionalities demonstrated in the video include:  
+
+- Retrieving the device's location (longitude and latitude).
+- Measuring the air quality inside the restroom.
+- Recording the number of door openings in the restroom.
+- Uploading all this data to Memfault.  
