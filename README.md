@@ -47,14 +47,11 @@ Prototype to Production Scaling: Adjusted cost estimates to account for economie
 Detailed Software Requirements Specification  
 
 Why It's a Success:  
-Clear Software Functionality:  
 
-Real-Time Monitoring and Alerts: Implementing real-time GPS tracking and alert systems ensures that maintenance staff can respond promptly to issues, enhancing operational efficiency.
+1.Real-Time Monitoring and Alerts: Implementing real-time GNSS tracking and alert systems ensures that maintenance staff can respond promptly to issues, enhancing operational efficiency.
 Power Monitoring: Monitoring battery status and sending low-power alerts adds a layer of reliability, ensuring that the system remains functional when needed.
-User-Centric Design:  
 
-System Administrators and Maintenance Staff: Clearly defining user roles ensures that the software meets the specific needs of different stakeholders, facilitating ease of use and effective management.  
-Scalable and Secure Communication:  
+2.System Administrators and Maintenance Staff: Clearly defining user roles ensures that the software meets the specific needs of different stakeholders, facilitating ease of use and effective management.  
 
-LTE-M/NB-IoT Connectivity: Utilizing reliable and low-power communication technologies ensures that your system can maintain continuous connectivity with minimal energy consumption.  
-Secure Data Transmission: Emphasizing secure data transmission protocols protects against potential breaches, maintaining the integrity and confidentiality of your system's data.  
+3.LTE-M/NB-IoT Connectivity: Utilizing reliable and low-power communication technologies ensures that your system can maintain continuous connectivity with minimal energy consumption.  
+  
