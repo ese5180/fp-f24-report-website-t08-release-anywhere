@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/KSk4F6vj)
 
 GitHub URL:  
 https://github.com/ese5180/fp-f24-report-website-t08-release-anywhere.git
@@ -6,7 +5,7 @@ https://github.com/ese5180/fp-f24-report-website-t08-release-anywhere.git
 The repository containing the project code：  
 https://github.com/ese5180/fp-f24-iot-venture-pitch-easypark.git
 
-# 1.Changes throughout the project
+# 1. Changes throughout the project
 
 ## a. Target Market & Demographics
 
